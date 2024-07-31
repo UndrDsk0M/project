@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(3, 0, 39);
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(236, 234, 108);
+    text-align: center;
+    cursor: none;
+}
+.glass{
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.089);
+    backdrop-filter: blur(20px);
+    margin: 10%;
+    border: 2px solid rgba(136, 55, 136, 0.329);
+    border-radius: 0 50px 0 50px;
+}
+.entry {
+    color: white;
+    background: transparent;
+    font-size: large;
+    width: 35%;
+    border-radius: 50px 0 0 50px;
+    height: 40px;
+    border: 2px solid rgba(128, 0, 128, 0.329);
+    margin-bottom: 10%;
+    padding-top: 1%;
+}
+button {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background-color: rgba(255, 255, 255, 0.164);
+    color: white;
+    border-radius: 0 50px 50px 0;
+    height: 40px;
+    width: 10%;
+    font-size: large;
+    border: 2px solid rgba(128, 0, 128, 0.329);
+    
+}
+
+.icon{
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.des{
+    background-color: rgb(88, 91, 128);
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5px;
+    padding: 1%;
+    a{
+        color: rgb(255, 255, 255);
+    }
+}
+
+.curser{
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, 25%);
+    position: absolute;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>URL eater</title>
+    <link rel="icon" type="image" href="/home/ehsan/Desktop/ppython/project/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass">
+    <div>
+        <picture class="icon">
+            <source srcset="URLeater.png">
+            <source srcset="URLeater.jpg">
+            <img width="150" src="icon.jpg" alt="icon.jpg" class="icon">
+        </picture>
+        <h1><strong>URL eater</strong></h1>
+        <h2><strong>feed us with your long delicious URL</strong></h2>
+        <form action="" method="POST">
+            <input class="entry" name="url" type="url" placeholder="   https://urleat.ir/account/login/?" autofocus required>
+            <button type="submit">Eat</button>
+        </form>   
+
+    </div> 
+</div>
+<div class="des">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at maiores dolor tempore excepturi incidunt dignissimos id soluta atque, maxime nesciunt optio, itaque dolorum nostrum. Aut, aperiam commodi asperiores voluptatem nihil ducimus cumque voluptas reprehenderit!</p>
+    <pre>< <a href="https://t.me/EHSAN_VK0"><b>us</b></a> ></pre>
+</div>
+    <img style="color:aliceblue;" src="pac.png" alt="xxx" class="curser">
+ 
+    <script>
+        let _ = document.querySelector('.curser')
+        document.getElementsByTagName('body')[0].addEventListener('mousemove', 
+        function(event){
+            x = event.clientX
+            y = event.clientY
+            _.style.top = window.scrollY + y + 'px'
+            _.style.left = x+'px'
+
+        })
+        </script>
+</body>
+</html>
